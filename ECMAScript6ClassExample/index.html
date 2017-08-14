@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Factorial (Recursive) Class in ECMASCript 6 Example - Armando Schiavon Dias - armando.schiavon@gmail.com</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="factorialClass.js"></script>
+</head>
+<body>
+
+<div class="appFrame">
+  <div class="htmlTitle">
+    JavaScript: Factorial (Recursive) Class in ECMASCript 6 Example - Armando Schiavon Dias -
+    <a href="mailto:armando.schiavon@gmail.com">armando.schiavon@gmail.com</a>
+  </div>
+  <div class="htmlExplanation">
+    <div class="htmlExplanationList">
+      This is just a example, using <strong>JavaScript ECMAScript 6</strong>, <strong>Class</strong> and <strong>Recursive code</strong>.<br/>
+      You probably found this code through my <strong>CV</strong> or <strong>
+      <a href="https://www.linkedin.com/in/armandoschiavondias/" target="_blank">
+      LinkedIn</a></strong>.<br/><br/>
+      <strong>Mission:</strong> Create a Class to calculate the Factorial of Numbers. Be carefull with wrong parameters.<br/>
+      The files are:<br/>
+      <ul>
+        <li><a target="_blank" href="https://github.com/ArmandoDias/ECMAScript6ClassFactorialExample/blob/master/index.html">index.html</a> (This Page, using the Class and displaying this information...)</li>
+        <li><a target="_blank" href="https://github.com/ArmandoDias/ECMAScript6ClassFactorialExample/blob/master/factorialClass.js">factorialClass.js</a> (Our little class)</li>
+        <li><a target="_blank" href="https://github.com/ArmandoDias/ECMAScript6ClassFactorialExample/blob/master/style.css">style.css</a> (Some CSS for styling... Is not the focus of this exercise!)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="results">
+    <b>Results:</b><br/>
+    <script>
+      const factorial = new FactorialClass()
+      document.write( `Factorial of <b>1</b> is <b>${factorial.calc(1)}</b><br/>` )
+      document.write( `Factorial of <b>2</b> is <b>${factorial.calc(2)}</b><br/>` )
+      document.write( `Factorial of <b>3</b> is <b>${factorial.calc(3)}</b><br/>` )
+      document.write( `Factorial of <b>4</b> is <b>${factorial.calc(4)}</b><br/>` )
+      document.write( `Factorial of <b>5</b> is <b>${factorial.calc(5)}</b><br/>` )
+      document.write( `Factorial of <b>6</b> is <b>${factorial.calc(6)}</b><br/>` )
+      document.write( `Factorial of <b>7</b> is <b>${factorial.calc(7)}</b><br/>` )
+      document.write( `Factorial of <b>8</b> is <b>${factorial.calc(8)}</b><br/>` )
+      document.write( `Factorial of <b>9</b> is <b>${factorial.calc(9)}</b><br/>` )
+      document.write( `Factorial of <b>10</b> is <b>${factorial.calc(10)}</b><br/>` )
+      document.write( `Factorial of <b>ABC</b> is <b>${factorial.calc('ABC')}</b><br/>` )
+      document.write( `Factorial of String <b>'123'</b> is <b>${factorial.calc('123')}</b><br/>` )
+    </script>
+  </div>
+</div>
+
+</body>
+</html>
